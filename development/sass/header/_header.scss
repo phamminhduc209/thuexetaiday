@@ -46,6 +46,7 @@
             background-color: transparent;
             border: none;
             border-radius: 0;
+            margin-bottom: 0;
         }
         .menu {
             padding-right: 0;
@@ -105,6 +106,7 @@
                 background: #fff;
                 opacity: 0;
                 visibility: hidden;
+                z-index: 9;
                 .submenu {
                     left: 100%;
                     top: 0;
