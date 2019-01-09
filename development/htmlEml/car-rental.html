@@ -1,275 +1,391 @@
-<div class="block-breadcrumb">
-    <div class="container">
-        <ol class="breadcrumb">
-            <li>
-                <a href="index.html">
-                    <i class="fa fa-home fa-2x"></i>
-                </a>
-            </li>
-            <li class="active">
-                <a href="#">Bảng giá dịch vụ cho thuê xe Tết Nguyên Đán 2019</a>
-            </li>
-        </ol>
-    </div>
-</div>
-<!-- block-breadcrumb -->
 <div class="block-handbook block-page block-page-col">
-    <div class="container">
-        <div class="block-content">
-            <div class="clearfix">
-                <div class="page-col-left">
-                    <div class="block-sidebar">
-                        <div class="block-advisory">
-                            <h2 class="block-title">TƯ VẤN ĐẶT XE</h2>
-                            <div class="block-content">
-                                <div class="advisory-items">
-                                    <p class="phone">
-                                        <span>Tư vấn viên</span>
-                                        <span><a href="tel:0914 090 801" title="">0914 090 801</a></span>
-                                    </p>
-                                    <p class="social">
-                                        <span>
-                                            <img src="/images/icon/zalo-icon.png" alt="Tai khoan Zalo">
-                                            <img src="/images/icon/viber-icon.png" alt="Tai khoan Viber">
-                                            <img src="/images/icon/phone-icon.png" alt="Tai khoan Phone">
-                                            <img src="/images/icon/messages-icon.png" alt="Tai khoan Messages">
-                                        </span>
-                                        <span>
-                                            <a href="tel:0914 090 801" title="">0914 090 801</a>
-                                        </span>
-                                    </p>
-                                    <p class="mail">
-                                        <i class="fa fa-envelope-o"></i>
-                                        <a href="mailto:someone@someone.com">someone@someone.com</a>
-                                    </p>
-                                </div>
-                                <form class="block-form">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-xs-12">
-                                            <p class="form-group form-title">
-                                                <i class="fa fa-bus"></i>
-                                                Thông tin đặt xe
-                                            </p>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="from" placeholder="Điểm đi" value="">
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="to" placeholder="Điểm đến" value="">
-                                            </div>
-                                            <div class="form-group">
-                                                <div class="clearfix">
-                                                    <div class="col">
-                                                        <label>Ngày đi:</label>
-                                                        <input class="form-control" type="text" name="departured" placeholder="Ngày đi" value=""
-                                                            readonly="readonly" class="">
-                                                    </div>
-                                                    <div class="col">
-                                                        <label>Ngày đi:</label>
-                                                        <input class="form-control" type="text" name="arrival" placeholder="Ngày đi" value=""
-                                                            readonly="readonly" class="">
-                                                    </div>
-                                                    <div class="col">
-                                                        <label>Ngày đi:</label>
-                                                        <select class="form-control" name="Selectcar">
-                                                            <option value="4">Xe 4 chỗ</option>
-                                                            <option value="7">Xe 7 chỗ</option>
-                                                            <option value="16">Xe 16 chỗ</option>
-                                                            <option value="24">Xe 24 chỗ</option>
-                                                            <option value="29">Xe 29 chỗ</option>
-                                                            <option value="35">Xe 35 chỗ</option>
-                                                            <option value="45">Xe 45 chỗ</option>
-                                                        </select>
+    <div class="page-content">
+        <div class="container">
+            <div class="block-content">
+                <div class="clearfix">
+                    <div class="page-col-left">
+                        <div class="block-sidebar">
+                            <div class="block-advisory">
+                                <h2 class="block-title">TƯ VẤN ĐẶT XE</h2>
+                                <div class="block-content">
+                                    <div class="advisory-items">
+                                        <p class="phone">
+                                            <span>Tư vấn viên</span>
+                                            <span><a href="tel:0914 090 801" title="">0914 090 801</a></span>
+                                        </p>
+                                        <p class="social">
+                                            <span>
+                                                <img src="/images/icon/zalo-icon.png" alt="Tai khoan Zalo">
+                                                <img src="/images/icon/viber-icon.png" alt="Tai khoan Viber">
+                                                <img src="/images/icon/phone-icon.png" alt="Tai khoan Phone">
+                                                <img src="/images/icon/messages-icon.png" alt="Tai khoan Messages">
+                                            </span>
+                                            <span>
+                                                <a href="tel:0914 090 801" title="">0914 090 801</a>
+                                            </span>
+                                        </p>
+                                        <p class="mail">
+                                            <i class="fa fa-envelope-o"></i>
+                                            <a href="mailto:someone@someone.com">someone@someone.com</a>
+                                        </p>
+                                    </div>
+                                    <form class="block-form">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-xs-12">
+                                                <p class="form-group form-title">
+                                                    <i class="fa fa-bus"></i>
+                                                    Thông tin đặt xe
+                                                </p>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="from" placeholder="Điểm đi"
+                                                        value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="to" placeholder="Điểm đến"
+                                                        value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="clearfix">
+                                                        <div class="col">
+                                                            <label>Ngày đi:</label>
+                                                            <input class="form-control inDatepicker" type="text" name="departured" placeholder="Ngày đi" value="10/01/2019" readonly="readonly">
+                                                        </div>
+                                                        <div class="col">
+                                                            <label>Ngày đi:</label>
+                                                            <input class="form-control inDatepicker" type="text" name="arrival" placeholder="Ngày đi" value="10/01/2019" readonly="readonly">
+                                                        </div>
+                                                        <div class="col">
+                                                            <label>Ngày đi:</label>
+                                                            <select class="form-control" name="Selectcar">
+                                                                <option value="4">Xe 4 chỗ</option>
+                                                                <option value="7">Xe 7 chỗ</option>
+                                                                <option value="16">Xe 16 chỗ</option>
+                                                                <option value="24">Xe 24 chỗ</option>
+                                                                <option value="29">Xe 29 chỗ</option>
+                                                                <option value="35">Xe 35 chỗ</option>
+                                                                <option value="45">Xe 45 chỗ</option>
+                                                            </select>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <div class="form-group" id="result_date">
+                                                    Thời gian sử dụng: <b>4 Ngày<b></b></b>
+                                                </div>
                                             </div>
-                                            <div class="form-group" id="result_date">
-                                                Thời gian sử dụng: <b>4 Ngày<b></b></b>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <p class="form-group form-title">
+                                                    <i class="fa fa-info-circle"></i>
+                                                    Thông tin khách hàng
+                                                </p>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="name" placeholder="Họ &amp; tên"
+                                                        value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="email" placeholder="Email"
+                                                        value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="phone" placeholder="Số điện thoại"
+                                                        value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="address" placeholder="Địa chỉ"
+                                                        value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <textarea class="form-control" name="comment" placeholder="Ghi chú" rows="4"></textarea>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                Capcha
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <div class="text-center">
+                                                    <button type="submit" class="btn btn-submit">Gửi</button>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-xs-12">
-                                            <p class="form-group form-title">
-                                                <i class="fa fa-info-circle"></i>
-                                                Thông tin khách hàng
-                                            </p>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="name" placeholder="Họ &amp; tên" value="">
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="email" placeholder="Email" value="">
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="phone" placeholder="Số điện thoại" value="">
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" name="address" placeholder="Địa chỉ" value="">
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12">
-                                            <textarea class="form-control" name="comment" placeholder="Ghi chú" rows="4"></textarea>
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12">
-                                            Capcha
-                                        </div>
-                                        <div class="col-sm-12 col-xs-12">
-                                            <div class="text-center">
-                                                <button type="submit" class="btn btn-submit">Gửi</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                                <!-- block-form -->
+                                    </form>
+                                    <!-- block-form -->
+                                </div>
                             </div>
-                        </div>
-                        <!-- block-advisory -->
-                        <div class="block-news">
-                            <h2 class="block-title">BÀI VIẾT NỔI BẬT</h2>
-                            <div class="block-content">
-                                <ul class="news-items">
-                                    <li class="news-item">
-                                        <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là tốt nhất ?</a>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là tốt nhất ?</a>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là tốt nhất ?</a>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là tốt nhất ?</a>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là tốt nhất ?</a>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là tốt nhất ?</a>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là tốt nhất ?</a>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là tốt nhất ?</a>
-                                    </li>
-                                </ul>
+                            <!-- block-advisory -->
+                            <div class="block-news">
+                                <h2 class="block-title">BÀI VIẾT NỔI BẬT</h2>
+                                <div class="block-content">
+                                    <ul class="news-items">
+                                        <li class="news-item">
+                                            <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là
+                                                tốt nhất ?</a>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là
+                                                tốt nhất ?</a>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là
+                                                tốt nhất ?</a>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là
+                                                tốt nhất ?</a>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là
+                                                tốt nhất ?</a>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là
+                                                tốt nhất ?</a>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là
+                                                tốt nhất ?</a>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="news" title="">Thuê xe du lịch 16 chỗ đi Vũng Tàu ở đâu, giá bao nhiêu là
+                                                tốt nhất ?</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <!-- block-news -->
-                        <div class="block-news">
-                            <h2 class="block-title">XE NỔI BẬT</h2>
-                            <div class="block-content">
-                                <ul class="news-items">
-                                    <li class="news-item">
-                                        <a href="#" title="">Cho thuê xe du lịch Ford Transit 16 chỗ cao cấp</a>
-                                        <div class="info">
-                                            <div class="name">Transit Luxury</div>
-                                            <div class="price">Liên hệ</div>
-                                        </div>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="#" title="">Cho thuê xe du lịch Hyundai Universe 45 chỗ đời mới</a>
-                                        <div class="info">
-                                            <div class="name">Transit Luxury</div>
-                                            <div class="price">Liên hệ</div>
-                                        </div>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="#" title="">Cho thuê xe du lịch Thaco Town 29 chỗ cao cấp</a>
-                                        <div class="info">
-                                            <div class="name">Transit Luxury</div>
-                                            <div class="price">Liên hệ</div>
-                                        </div>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="#" title="">Cho thuê xe du lịch Isuzu Samco 29 chỗ giá tốt</a>
-                                        <div class="info">
-                                            <div class="name">Transit Luxury</div>
-                                            <div class="price">Liên hệ</div>
-                                        </div>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="#" title="">Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt</a>
-                                        <div class="info">
-                                            <div class="name">Transit Luxury</div>
-                                            <div class="price">Liên hệ</div>
-                                        </div>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="#" title="">Cho thuê xe du lịch Toyota Innova 7 chỗ giá tốt</a>
-                                        <div class="info">
-                                            <div class="name">Transit Luxury Transit Luxury Transit Luxury Transit Luxury Transit Luxury Transit Luxury Transit Luxury Transit Luxury</div>
-                                            <div class="price">Liên hệ</div>
-                                        </div>
-                                    </li>
-                                    <li class="news-item news-item-image">
-                                        <a href="#" title="">
-                                            <img src="images/Xe-16c-den-Thuexetaiday-com.jpeg" alt="">
-                                        </a>
-                                        <a href="#" title="">
-                                            <img src="images/xe-29-cho-MGM-51B-18893.jpg" alt="">
-                                        </a>
-                                        <div class="youtube">
-                                            <iframe allowfullscreen="" frameborder="0" height="360" rel="nofollow" src="https://www.youtube.com/embed/x96oeG1tKk0"
-                                                width="100%"></iframe>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <!-- block-news -->
+                            <div class="block-news">
+                                <h2 class="block-title">XE NỔI BẬT</h2>
+                                <div class="block-content">
+                                    <ul class="news-items">
+                                        <li class="news-item">
+                                            <a href="#" title="">Cho thuê xe du lịch Ford Transit 16 chỗ cao cấp</a>
+                                            <div class="info">
+                                                <div class="name">Transit Luxury</div>
+                                                <div class="price">Liên hệ</div>
+                                            </div>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="#" title="">Cho thuê xe du lịch Hyundai Universe 45 chỗ đời mới</a>
+                                            <div class="info">
+                                                <div class="name">Transit Luxury</div>
+                                                <div class="price">Liên hệ</div>
+                                            </div>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="#" title="">Cho thuê xe du lịch Thaco Town 29 chỗ cao cấp</a>
+                                            <div class="info">
+                                                <div class="name">Transit Luxury</div>
+                                                <div class="price">Liên hệ</div>
+                                            </div>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="#" title="">Cho thuê xe du lịch Isuzu Samco 29 chỗ giá tốt</a>
+                                            <div class="info">
+                                                <div class="name">Transit Luxury</div>
+                                                <div class="price">Liên hệ</div>
+                                            </div>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="#" title="">Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt</a>
+                                            <div class="info">
+                                                <div class="name">Transit Luxury</div>
+                                                <div class="price">Liên hệ</div>
+                                            </div>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="#" title="">Cho thuê xe du lịch Toyota Innova 7 chỗ giá tốt</a>
+                                            <div class="info">
+                                                <div class="name">Transit Luxury Transit Luxury Transit Luxury Transit Luxury
+                                                    Transit Luxury Transit Luxury Transit Luxury Transit Luxury</div>
+                                                <div class="price">Liên hệ</div>
+                                            </div>
+                                        </li>
+                                        <li class="news-item news-item-image">
+                                            <a href="#" title="">
+                                                <img src="images/Xe-16c-den-Thuexetaiday-com.jpeg" alt="">
+                                            </a>
+                                            <a href="#" title="">
+                                                <img src="images/xe-29-cho-MGM-51B-18893.jpg" alt="">
+                                            </a>
+                                            <div class="youtube">
+                                                <iframe allowfullscreen="" frameborder="0" height="360" rel="nofollow" src="https://www.youtube.com/embed/x96oeG1tKk0"
+                                                    width="100%"></iframe>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <!-- block-news -->
-                        <div class="block-news">
-                            <h2 class="block-title">XE NỔI BẬT</h2>
-                            <div class="block-content">
-                                <ul class="news-items">
-                                    <li class="news-item">
-                                        <a href="#" title="">Cho thuê xe du lịch Ford Transit 16 chỗ cao cấp</a>
-                                        <div class="info">
-                                            <div class="name">Transit Luxury</div>
-                                            <div class="price">Liên hệ</div>
-                                        </div>
-                                    </li>
-                                    <li class="news-item">
-                                        <a href="#" title="">Cho thuê xe du lịch Hyundai Universe 45 chỗ đời mới</a>
-                                        <div class="info">
-                                            <div class="name">Transit Luxury</div>
-                                            <div class="price">Liên hệ</div>
-                                        </div>
-                                    </li>
-                                </ul>
+                            <!-- block-news -->
+                            <div class="block-news">
+                                <h2 class="block-title">XE NỔI BẬT</h2>
+                                <div class="block-content">
+                                    <ul class="news-items">
+                                        <li class="news-item">
+                                            <a href="#" title="">Cho thuê xe du lịch Ford Transit 16 chỗ cao cấp</a>
+                                            <div class="info">
+                                                <div class="name">Transit Luxury</div>
+                                                <div class="price">Liên hệ</div>
+                                            </div>
+                                        </li>
+                                        <li class="news-item">
+                                            <a href="#" title="">Cho thuê xe du lịch Hyundai Universe 45 chỗ đời mới</a>
+                                            <div class="info">
+                                                <div class="name">Transit Luxury</div>
+                                                <div class="price">Liên hệ</div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <!-- block-news -->
-                        <div class="block-whychoose">
-                            <h2 class="block-title">TẠI SAO CHỌN CHÚNG TÔI?</h2>
-                            <div class="block-content">
-                                <ul class="whychoose-items">
-                                    <li class="whychoose-item">Tất cả các dòng xe đều cao cấp</li>
-                                    <li class="whychoose-item">Chuyên phục vụ khách du lịch Quốc tế</li>
-                                    <li class="whychoose-item">Là đối tác của nhiều đơn vị, công ty lớn</li>
-                                    <li class="whychoose-item">Giá thuê xe cạnh tranh</li>
-                                    <li class="whychoose-item">Tài xế có chuyên môn cao</li>
-                                    <li class="whychoose-item">Đặt xe nhanh chóng và dễ dàng</li>
-                                    <li class="whychoose-item">Thanh toán linh hoạt</li>
-                                </ul>
+                            <!-- block-news -->
+                            <div class="block-whychoose">
+                                <h2 class="block-title">TẠI SAO CHỌN CHÚNG TÔI?</h2>
+                                <div class="block-content">
+                                    <ul class="whychoose-items">
+                                        <li class="whychoose-item">Tất cả các dòng xe đều cao cấp</li>
+                                        <li class="whychoose-item">Chuyên phục vụ khách du lịch Quốc tế</li>
+                                        <li class="whychoose-item">Là đối tác của nhiều đơn vị, công ty lớn</li>
+                                        <li class="whychoose-item">Giá thuê xe cạnh tranh</li>
+                                        <li class="whychoose-item">Tài xế có chuyên môn cao</li>
+                                        <li class="whychoose-item">Đặt xe nhanh chóng và dễ dàng</li>
+                                        <li class="whychoose-item">Thanh toán linh hoạt</li>
+                                    </ul>
+                                </div>
                             </div>
+                            <!-- block-whychoose -->
                         </div>
-                        <!-- block-whychoose -->
                     </div>
-                </div>
-                <!-- page-col-left -->
-                <div class="page-col-right">
-                    <div class="block-car-rental">
-                        <div class="car-rental-title"></div>
-                        <div class="car-rental-content">
-                            <div class="car-rental-content-items">
-                                <div class="car-rental-content-item">
+                    <!-- page-col-left -->
+                    <div class="page-col-right">
+                        <div class="block-car-rental">
+                            <div class="block-breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li>
+                                        <a href="index.html">
+                                            <i class="fa fa-home fa-2x"></i>
+                                        </a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#">Bảng giá dịch vụ cho thuê xe Tết Nguyên Đán 2019</a>
+                                    </li>
+                                </ol>
+                            </div>
+                            <!-- block-breadcrumb -->
+                            <div class="block-text">
+                                <div class="text-desc">
+                                    <h2 class="title-detail">DỊCH VỤ CHO THUÊ XE DU LỊCH CAO CẤP</h2>
+                                </div>
+                                <div class="text-desc">
+                                    <p><strong>Dịch vụ&nbsp;cho thuê xe du lịch </strong>của&nbsp;<span class="bluebold">MGM</span>&nbsp;với
+                                        sự chuyên
+                                        nghiệp, uy tín và chất lượng. Chuyên&nbsp;phục vụ các&nbsp;nhu cầu thuê xe đi&nbsp;du
+                                        lịch, đi công tác… của quý
+                                        khách tại Tp.HCM và các tỉnh lân cận.&nbsp;Với mạng lưới rộng khắp, xe chất lượng cao
+                                        chuyên phục vụ khách du lịch,
+                                        chúng tôi luôn cố gắng&nbsp;làm hài lòng tất cả&nbsp;khách hàng khi đến với dịch vụ
+                                        cho&nbsp;thuê xe du lịch.
+                                    </p>
+                                    <p>Sở hữu đội xe đời mới, hiện đại, tiện nghi nhất từ <strong>7&nbsp;đến 45 chỗ</strong>,
+                                        <span class="bluebold">MGM</span>&nbsp;với <strong>sự chuyên nghiệp</strong>, <strong>uy
+                                            tín</strong> và <strong>chất lượng phục vụ cao</strong> luôn sẵn sàng đáp ứng những
+                                        yêu cầu đa dạng của du khách, triển khai hợp đồng thuê xe ngắn và dài hạn cho cá nhân,
+                                        cơ quan, tổ chức, phục vụ nhu cầu thuê xe du lịch, đi công tác, đưa đón sân bay,… của
+                                        quý khách tại TP.HCM và các tỉnh lân cận.</p>
+                                    <p>Đội ngũ lái xe có nghiệp vụ cao, chuyên tâm trong công việc, nhiệt tình, chu đáo và
+                                        thường xuyên được nâng cao nghiệp vụ qua các khóa huấn luyện chuyên môn&nbsp;luôn vì
+                                        lợi ích hàng đầu của du khách.</p>
+                                    <p>Mặc dù&nbsp;<span class="bluebold">MGM</span>&nbsp;đã cố gắng đưa ra mức giá hợp lý và
+                                        cố định, nhưng nếu Quý khách có nhu cầu thuê xe xin hãy liên hệ trực tiếp với chúng tôi
+                                        để có được giá chính xác trong từng trường hợp cụ thể, bởi vì giá nhiên liệu lên xuống
+                                        thất thường và giá thuê xe du lịch tại&nbsp;TP.HCM&nbsp;cũng thay đổi theo từng thời
+                                        điểm trong năm, cuối tuần và ngày lễ.</p>
+                                    <p>Mọi chi tiết về&nbsp;<strong>Dịch vụ cho thuê xe du lịch tại TpHCM</strong>&nbsp;của&nbsp;<strong><span>MGM</span></strong>&nbsp;xin
+                                        liên hệ:</p>
+                                    <p>
+                                        <span class="bluebold">HOTLINE</span>&nbsp;
+                                        <span class="staricon">&nbsp;</span>
+                                        <span class="redbold">0974 575 801 -</span>
+                                        <span class="staricon">&nbsp;<span class="bluebold">(Viber, Zalo)</span>&nbsp;</span>
+                                        <span class="redbold">0914 090 801</span>
+                                    </p>
+                                    <p><strong>Trụ sở:</strong>&nbsp;Tầng 46, Tòa nhà Bitexco Financial Tower, Số 2 Hải Triều,
+                                        Quận 1, Tp.HCM</p>
+                                    <p><strong>Email: </strong><a href="mailto:booking@thuexetaiday.com">booking@thuexetaiday.com</a></p>
+                                    <p>MGM&nbsp;rất hân hạnh được phục vụ quý khách.</p>
+                                    <p><strong><em>MGM&nbsp;luôn tạo sự thoải mái nhất cho Quý khách&nbsp;trong
+                                                suốt&nbsp;chuyến đi. Niềm vui của Quý khách là hạnh phục của chúng tôi!</em></strong></p>
+                                    <p><span class="staricon">&nbsp;</span><em><strong><span class="redbold">HOT:</span>&nbsp;MGM</strong>
+                                            sẽ ưu đãi giá với những Quý khách hàng đặt thuê xe du lịch sớm 1 tháng. Với chương
+                                            trình <span class="bluebold">"Thuê xe càng sớm, giá xe càng rẻ"</span> MGM luôn
+                                            mong muốn Quý khách sử dụng Dịch vụ cao cấp với giá thành phù hợp nhất.</em></p>
+                                </div>
+                            </div>
+                            <!-- block-text -->
+                            <div class="block-support">
+                                <div class="support-info">
+                                    <div class="block-order">
+                                        <a class="buy-now" href="#">
+                                            <span>ĐĂNG KÝ NGAY </span>
+                                            <span>Đặt xe trước ngày 20/01/2019 để có giá tốt nhất!</span>
+                                        </a>
+                                    </div>
+                                    <!-- block-order -->
+                                </div>
+                            </div>
+                            <!-- block-support -->
+                            <div class="block-cate-list">
+                                <ul class="cate-list-items">
+                                    <li class="cate-list-item">
+                                        <a href="http://thuexetaiday.com/thue-xe-du-lich-45-cho">Thuê xe du lịch 45 chỗ</a>
+                                        <span>(1)</span>
+                                    </li>
+                                    <li class="cate-list-item">
+                                        <a href="http://thuexetaiday.com/thue-xe-du-lich-45-cho">Thuê xe du lịch 45 chỗ</a>
+                                        <span>(1)</span>
+                                    </li>
+                                    <li class="cate-list-item">
+                                        <a href="http://thuexetaiday.com/thue-xe-du-lich-45-cho">Thuê xe du lịch 45 chỗ</a>
+                                        <span>(1)</span>
+                                    </li>
+                                    <li class="cate-list-item">
+                                        <a href="http://thuexetaiday.com/thue-xe-du-lich-45-cho">Thuê xe du lịch 45 chỗ</a>
+                                        <span>(1)</span>
+                                    </li>
+                                    <li class="cate-list-item">
+                                        <a href="http://thuexetaiday.com/thue-xe-du-lich-45-cho">Thuê xe du lịch 45 chỗ</a>
+                                        <span>(1)</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- block-cate-list -->
+                            <div class="block-filter">
+                                <div class="show-news">
+                                    <span>Sắp xếp theo:</span>
+                                    <select class="form-control" name="">
+                                        <option value="#">Mặc định</option>
+                                        <option value="#">Tên (A - Z)</option>
+                                        <option value="#">Tên (Z - A)</option>
+                                        <option value="#">Giá (Thấp &gt; Cao)</option>
+                                        <option value="#">Giá (Cao &gt; Thấp)</option>
+                                        <option value="#">Đánh giá (Cao nhất)</option>
+                                        <option value="#">Đánh giá (Thấp nhất)</option>
+                                        <option value="#" selected="selected">Model (A - Z)</option>
+                                        <option value="#">Model (Z - A)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- block-filter -->
+                            <ul class="car-rental-content-items">
+                                <li class="car-rental-content-item">
                                     <div class="car-rental-content-item-info">
                                         <div class="image">
                                             <a href="#" title="">
-                                                <img src="https://thuexetaiday.com/image/cache/data/san-pham/xe-toyota-fortuner-7-cho-max-400.jpg" title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                                <img src="https://thuexetaiday.com/image/cache/data/san-pham/xe-toyota-fortuner-7-cho-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
                                             </a>
                                         </div>
                                         <div class="des">
                                             <h3 class="title">
-                                                <a href="#" title="Cho thuê xe du lịch Ford Transit 16 chỗ cao cấp">Cho thuê xe du lịch Ford Transit 16 chỗ cao cấp</a>
+                                                <a href="#" title="XE0701: Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">XE0701:
+                                                    Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt</a>
                                             </h3>
                                             <div class="des-ct">
                                                 <p>Hãng xe:
@@ -294,17 +410,19 @@
                                             <a href="#" title="" class="button">Xem Xe</a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="car-rental-content-item">
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
                                     <div class="car-rental-content-item-info">
                                         <div class="image">
                                             <a href="#" title="">
-                                                <img src="https://thuexetaiday.com/image/cache/data/san-pham/xe-toyota-fortuner-7-cho-max-400.jpg" title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                                <img src="https://thuexetaiday.com/image/cache/data/Xe-7cho/7cho-nau-THUEXETAIDAY-820-51b-16928-2-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
                                             </a>
                                         </div>
                                         <div class="des">
                                             <h3 class="title">
-                                                <a href="#" title="Cho thuê xe du lịch Ford Transit 16 chỗ cao cấp">Cho thuê xe du lịch Ford Transit 16 chỗ cao cấp</a>
+                                                <a href="#" title="XE0702: Cho thuê xe du lịch Toyota Innova 7 chỗ giá tốt">XE0702:
+                                                    Cho thuê xe du lịch Toyota Innova 7 chỗ giá tốt</a>
                                             </h3>
                                             <div class="des-ct">
                                                 <p>Hãng xe:
@@ -329,12 +447,417 @@
                                             <a href="#" title="" class="button">Xem Xe</a>
                                         </div>
                                     </div>
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
+                                    <div class="car-rental-content-item-info">
+                                        <div class="image">
+                                            <a href="#" title="">
+                                                <img src="https://thuexetaiday.com/image/cache/data/san-pham/xe-toyota-fortuner-7-cho-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                            </a>
+                                        </div>
+                                        <div class="des">
+                                            <h3 class="title">
+                                                <a href="#" title="XE0701: Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">XE0701:
+                                                    Cho thuê xe du
+                                                    lịch Toyota Fortuner 7 chỗ giá tốt</a>
+                                            </h3>
+                                            <div class="des-ct">
+                                                <p>Hãng xe:
+                                                    <span>
+                                                        <a href="#" title="Ford">Ford</a>
+                                                    </span>
+                                                </p>
+                                                <p>Mẫu xe: <span>Transit Luxury</span></p>
+                                                <p>Đời xe: <span>2017 - 2018</span></p>
+                                                <p>Màu xe: <span>Bạc / Đen</span></p>
+                                                <p>Chỗ ngồi: <span>15</span></p>
+                                                <p>Tài xế: <span>Có</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car-rental-content-item-cont">
+                                        <p class="type">Giá xe</p>
+                                        <p class="price">
+                                            <label>Liên hệ</label>
+                                        </p>
+                                        <div class="cart">
+                                            <a href="#" title="" class="button">Xem Xe</a>
+                                        </div>
+                                    </div>
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
+                                    <div class="car-rental-content-item-info">
+                                        <div class="image">
+                                            <a href="#" title="">
+                                                <img src="https://thuexetaiday.com/image/cache/data/Xe-7cho/7cho-nau-THUEXETAIDAY-820-51b-16928-2-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                            </a>
+                                        </div>
+                                        <div class="des">
+                                            <h3 class="title">
+                                                <a href="#" title="XE0702: Cho thuê xe du lịch Toyota Innova 7 chỗ giá tốt">XE0702:
+                                                    Cho thuê xe du lịch
+                                                    Toyota Innova 7 chỗ giá tốt</a>
+                                            </h3>
+                                            <div class="des-ct">
+                                                <p>Hãng xe:
+                                                    <span>
+                                                        <a href="#" title="Ford">Ford</a>
+                                                    </span>
+                                                </p>
+                                                <p>Mẫu xe: <span>Transit Luxury</span></p>
+                                                <p>Đời xe: <span>2017 - 2018</span></p>
+                                                <p>Màu xe: <span>Bạc / Đen</span></p>
+                                                <p>Chỗ ngồi: <span>15</span></p>
+                                                <p>Tài xế: <span>Có</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car-rental-content-item-cont">
+                                        <p class="type">Giá xe</p>
+                                        <p class="price">
+                                            <label>Liên hệ</label>
+                                        </p>
+                                        <div class="cart">
+                                            <a href="#" title="" class="button">Xem Xe</a>
+                                        </div>
+                                    </div>
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
+                                    <div class="car-rental-content-item-info">
+                                        <div class="image">
+                                            <a href="#" title="">
+                                                <img src="https://thuexetaiday.com/image/cache/data/san-pham/xe-toyota-fortuner-7-cho-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                            </a>
+                                        </div>
+                                        <div class="des">
+                                            <h3 class="title">
+                                                <a href="#" title="XE0701: Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">XE0701:
+                                                    Cho thuê xe du
+                                                    lịch Toyota Fortuner 7 chỗ giá tốt</a>
+                                            </h3>
+                                            <div class="des-ct">
+                                                <p>Hãng xe:
+                                                    <span>
+                                                        <a href="#" title="Ford">Ford</a>
+                                                    </span>
+                                                </p>
+                                                <p>Mẫu xe: <span>Transit Luxury</span></p>
+                                                <p>Đời xe: <span>2017 - 2018</span></p>
+                                                <p>Màu xe: <span>Bạc / Đen</span></p>
+                                                <p>Chỗ ngồi: <span>15</span></p>
+                                                <p>Tài xế: <span>Có</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car-rental-content-item-cont">
+                                        <p class="type">Giá xe</p>
+                                        <p class="price">
+                                            <label>Liên hệ</label>
+                                        </p>
+                                        <div class="cart">
+                                            <a href="#" title="" class="button">Xem Xe</a>
+                                        </div>
+                                    </div>
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
+                                    <div class="car-rental-content-item-info">
+                                        <div class="image">
+                                            <a href="#" title="">
+                                                <img src="https://thuexetaiday.com/image/cache/data/Xe-7cho/7cho-nau-THUEXETAIDAY-820-51b-16928-2-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                            </a>
+                                        </div>
+                                        <div class="des">
+                                            <h3 class="title">
+                                                <a href="#" title="XE0702: Cho thuê xe du lịch Toyota Innova 7 chỗ giá tốt">XE0702:
+                                                    Cho thuê xe du lịch
+                                                    Toyota Innova 7 chỗ giá tốt</a>
+                                            </h3>
+                                            <div class="des-ct">
+                                                <p>Hãng xe:
+                                                    <span>
+                                                        <a href="#" title="Ford">Ford</a>
+                                                    </span>
+                                                </p>
+                                                <p>Mẫu xe: <span>Transit Luxury</span></p>
+                                                <p>Đời xe: <span>2017 - 2018</span></p>
+                                                <p>Màu xe: <span>Bạc / Đen</span></p>
+                                                <p>Chỗ ngồi: <span>15</span></p>
+                                                <p>Tài xế: <span>Có</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car-rental-content-item-cont">
+                                        <p class="type">Giá xe</p>
+                                        <p class="price">
+                                            <label>Liên hệ</label>
+                                        </p>
+                                        <div class="cart">
+                                            <a href="#" title="" class="button">Xem Xe</a>
+                                        </div>
+                                    </div>
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
+                                    <div class="car-rental-content-item-info">
+                                        <div class="image">
+                                            <a href="#" title="">
+                                                <img src="https://thuexetaiday.com/image/cache/data/san-pham/xe-toyota-fortuner-7-cho-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                            </a>
+                                        </div>
+                                        <div class="des">
+                                            <h3 class="title">
+                                                <a href="#" title="XE0701: Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">XE0701:
+                                                    Cho thuê xe du
+                                                    lịch Toyota Fortuner 7 chỗ giá tốt</a>
+                                            </h3>
+                                            <div class="des-ct">
+                                                <p>Hãng xe:
+                                                    <span>
+                                                        <a href="#" title="Ford">Ford</a>
+                                                    </span>
+                                                </p>
+                                                <p>Mẫu xe: <span>Transit Luxury</span></p>
+                                                <p>Đời xe: <span>2017 - 2018</span></p>
+                                                <p>Màu xe: <span>Bạc / Đen</span></p>
+                                                <p>Chỗ ngồi: <span>15</span></p>
+                                                <p>Tài xế: <span>Có</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car-rental-content-item-cont">
+                                        <p class="type">Giá xe</p>
+                                        <p class="price">
+                                            <label>Liên hệ</label>
+                                        </p>
+                                        <div class="cart">
+                                            <a href="#" title="" class="button">Xem Xe</a>
+                                        </div>
+                                    </div>
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
+                                    <div class="car-rental-content-item-info">
+                                        <div class="image">
+                                            <a href="#" title="">
+                                                <img src="https://thuexetaiday.com/image/cache/data/Xe-7cho/7cho-nau-THUEXETAIDAY-820-51b-16928-2-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                            </a>
+                                        </div>
+                                        <div class="des">
+                                            <h3 class="title">
+                                                <a href="#" title="XE0702: Cho thuê xe du lịch Toyota Innova 7 chỗ giá tốt">XE0702:
+                                                    Cho thuê xe du lịch
+                                                    Toyota Innova 7 chỗ giá tốt</a>
+                                            </h3>
+                                            <div class="des-ct">
+                                                <p>Hãng xe:
+                                                    <span>
+                                                        <a href="#" title="Ford">Ford</a>
+                                                    </span>
+                                                </p>
+                                                <p>Mẫu xe: <span>Transit Luxury</span></p>
+                                                <p>Đời xe: <span>2017 - 2018</span></p>
+                                                <p>Màu xe: <span>Bạc / Đen</span></p>
+                                                <p>Chỗ ngồi: <span>15</span></p>
+                                                <p>Tài xế: <span>Có</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car-rental-content-item-cont">
+                                        <p class="type">Giá xe</p>
+                                        <p class="price">
+                                            <label>Liên hệ</label>
+                                        </p>
+                                        <div class="cart">
+                                            <a href="#" title="" class="button">Xem Xe</a>
+                                        </div>
+                                    </div>
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
+                                    <div class="car-rental-content-item-info">
+                                        <div class="image">
+                                            <a href="#" title="">
+                                                <img src="https://thuexetaiday.com/image/cache/data/san-pham/xe-toyota-fortuner-7-cho-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                            </a>
+                                        </div>
+                                        <div class="des">
+                                            <h3 class="title">
+                                                <a href="#" title="XE0701: Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">XE0701:
+                                                    Cho thuê xe du
+                                                    lịch Toyota Fortuner 7 chỗ giá tốt</a>
+                                            </h3>
+                                            <div class="des-ct">
+                                                <p>Hãng xe:
+                                                    <span>
+                                                        <a href="#" title="Ford">Ford</a>
+                                                    </span>
+                                                </p>
+                                                <p>Mẫu xe: <span>Transit Luxury</span></p>
+                                                <p>Đời xe: <span>2017 - 2018</span></p>
+                                                <p>Màu xe: <span>Bạc / Đen</span></p>
+                                                <p>Chỗ ngồi: <span>15</span></p>
+                                                <p>Tài xế: <span>Có</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car-rental-content-item-cont">
+                                        <p class="type">Giá xe</p>
+                                        <p class="price">
+                                            <label>Liên hệ</label>
+                                        </p>
+                                        <div class="cart">
+                                            <a href="#" title="" class="button">Xem Xe</a>
+                                        </div>
+                                    </div>
+                                </li><!-- car-rental-content-item -->
+                                <li class="car-rental-content-item">
+                                    <div class="car-rental-content-item-info">
+                                        <div class="image">
+                                            <a href="#" title="">
+                                                <img src="https://thuexetaiday.com/image/cache/data/Xe-7cho/7cho-nau-THUEXETAIDAY-820-51b-16928-2-max-400.jpg"
+                                                    title="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt" alt="Cho thuê xe du lịch Toyota Fortuner 7 chỗ giá tốt">
+                                            </a>
+                                        </div>
+                                        <div class="des">
+                                            <h3 class="title">
+                                                <a href="#" title="XE0702: Cho thuê xe du lịch Toyota Innova 7 chỗ giá tốt">XE0702:
+                                                    Cho thuê xe du lịch
+                                                    Toyota Innova 7 chỗ giá tốt</a>
+                                            </h3>
+                                            <div class="des-ct">
+                                                <p>Hãng xe:
+                                                    <span>
+                                                        <a href="#" title="Ford">Ford</a>
+                                                    </span>
+                                                </p>
+                                                <p>Mẫu xe: <span>Transit Luxury</span></p>
+                                                <p>Đời xe: <span>2017 - 2018</span></p>
+                                                <p>Màu xe: <span>Bạc / Đen</span></p>
+                                                <p>Chỗ ngồi: <span>15</span></p>
+                                                <p>Tài xế: <span>Có</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car-rental-content-item-cont">
+                                        <p class="type">Giá xe</p>
+                                        <p class="price">
+                                            <label>Liên hệ</label>
+                                        </p>
+                                        <div class="cart">
+                                            <a href="#" title="" class="button">Xem Xe</a>
+                                        </div>
+                                    </div>
+                                </li><!-- car-rental-content-item -->
+                            </ul>
+                            <!-- car-rental-content-items -->
+                            <div class="block-text block-reason">
+                                <div class="text-desc">
+                                    <h3 class="reason-title">Những lí do nên thuê xe du lịch tại MGM</h3>
+                                    <p><span class="staricon">&nbsp;</span><span class="bluebold">CHỈ SỬ DỤNG NHỮNG DÒNG XE CAO CẤP ĐỜI MỚI NHẤT HIỆN NAY</span></p>
+                                    <p>Một trong những yếu tố Quý khách quan tâm đầu tiên khi thuê xe du lịch là&nbsp;HÌNH THỨC&nbsp;và&nbsp;CHẤT LƯỢNG XE. Để đáp ứng yêu cầu này của Quý khách,&nbsp;MGM luôn đảm bảo các xe phục vụ khách hàng đều là xe mới đẹp.</p>
+                                    <p>Luôn muốn Quý khách có những phút giây thỏa mái nhất khi thuê xe du lịch tại MGM. Vì thế chúng tôi luôn đáp ứng nhu cầu bằng một Dịch vụ chất lượng 5 SAO.</p>
+                                    <p>Một chiếc xe đời mới, sạch sẽ, đầy đủ tiện nghi là điều Quý khách dễ dàng nhận ra khi sử dụng xe của MGM:</p>
+                                    <p>Những dòng xe du lịch cao cấp đời mới nhất mà MGM đang vận hành:</p>
+                                    <ul>
+                                        <li>Dòng xe du lịch 16 chỗ cao cấp: Ford Transit Luxury đời 2017 - 2018 cao cấp</li>
+                                        <li>Dòng xe du lịch 29 chỗ cao cấp: Thaco Town đời 2016-2017 cao cấp</li>
+                                        <li>Dòng xe du lịch 45 chỗ cao cấp: Hyundai Universe nhập khẩu đời mới, với đầy đủ tiện nghi.</li>
+                                    </ul>
+                                    <p><span class="staricon">&nbsp;</span><span class="bluebold">TÀI XẾ MGM – CHUẨN MỰC CỦA DỊCH VỤ VẬN CHUYỂN 5 SAO</span></p>
+                                    <p style="text-align: center;">
+                                        <img alt="" src="https://thuexetaiday.com/image/data/Xe-16cho/51B-24793-51B24353-LongHai-660.jpg"><br>
+                                        <em>Dòng xe 16 chỗ Ford Transit Luxury đời 2017 - 2018&nbsp;cao cấp MGM đang vận hành.</em>
+                                    </p>
+                                    <p>Với tiêu chí <span class="bluebold"><em>“Niềm vui của Quý khách là hạnh phúc của chúng tôi”</em></span>. Đội ngủ tài xế MGM với độ tuổi từ 38 – 46 đã có nhiều năm kinh nghiệm lái xe, rành đường, thái độ phục vụ Khách hàng lịch sự, cỡi mở và nhiệt tình.
+                                    </p>
+                                    <p>Đặc biệt, tài xế MGM luôn đúng giờ, chạy đúng luật, không phóng nhanh vượt ẩu, luôn đặt tiêu chí an toàn lên trên hết.</p>
+                                    <h3 class="reason-title">Hình ảnh những dòng xe du lịch cao cấp của MGM</h3>
+                                    <p><img alt="" src="https://thuexetaiday.com/image/data/Xe-16cho/dan-xe-16-cho-mgm-820.jpg"></p>
+                                    <p><img alt="" src="https://thuexetaiday.com/image/data/Xe-16cho/51B-24793-MGM-820.jpg"></p>
+                                    <p><img alt="" src="https://thuexetaiday.com/image/data/Xe-16cho/16cho-31146-mgm-820.jpg"></p>
+                                    <div class="youtube"><iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/x96oeG1tKk0" width="100%"></iframe></div>
+                                    <form class="block-form">
+                                        <h3 class="reason-title">Đặt xe theo yêu cầu</h3>
+                                        <div class="row">
+                                            <div class="col-sm-6 col-xs-12 col-sm-push-6">
+                                                <p class="form-group form-title">
+                                                    <i class="fa fa-bus"></i>
+                                                    Thông tin đặt xe
+                                                </p>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="from" placeholder="Điểm đi" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="to" placeholder="Điểm đến" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="clearfix">
+                                                        <div class="col">
+                                                            <label>Ngày đi:</label>
+                                                            <input class="form-control inDatepicker" type="text" id="departured_air-sidebar" name="departured" placeholder="Ngày đi" value="10/01/2019" readonly="readonly">
+                                                        </div>
+                                                        <div class="col">
+                                                            <label>Ngày đi:</label>
+                                                            <input class="form-control inDatepicker" type="text" id="arrival_air-sidebar" name="arrival" placeholder="Ngày đi" value="10/01/2019" readonly="readonly">
+                                                        </div>
+                                                        <div class="col">
+                                                            <label>Ngày đi:</label>
+                                                            <select class="form-control" name="Selectcar">
+                                                                <option value="4">Xe 4 chỗ</option>
+                                                                <option value="7">Xe 7 chỗ</option>
+                                                                <option value="16">Xe 16 chỗ</option>
+                                                                <option value="24">Xe 24 chỗ</option>
+                                                                <option value="29">Xe 29 chỗ</option>
+                                                                <option value="35">Xe 35 chỗ</option>
+                                                                <option value="45">Xe 45 chỗ</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" id="result_date">
+                                                    Thời gian sử dụng: <b>4 Ngày<b></b></b>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 col-xs-12 col-sm-pull-6">
+                                                <p class="form-group form-title">
+                                                    <i class="fa fa-info-circle"></i>
+                                                    Thông tin khách hàng
+                                                </p>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="name" placeholder="Họ &amp; tên" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="email" placeholder="Email" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="phone" placeholder="Số điện thoại" value="">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input class="form-control" type="text" name="address" placeholder="Địa chỉ" value="">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <textarea class="form-control" name="comment" placeholder="Ghi chú" rows="4"></textarea>
+                                            </div>
+                                            <div class="col-sm-12 col-xs-12">
+                                                <div class="text-center">
+                                                    <button type="submit" class="btn btn-submit">Gửi</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <!-- block-form -->
                                 </div>
                             </div>
+                            <!-- block-text -->
                         </div>
                     </div>
+                    <!-- page-col-right -->
                 </div>
-                <!-- page-col-right -->
             </div>
         </div>
     </div>
